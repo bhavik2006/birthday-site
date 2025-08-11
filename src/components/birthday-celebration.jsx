@@ -26,7 +26,7 @@ export default function BirthdayCelebration() {
           <Sparkles className="w-8 h-8 text-yellow-500" />
           <Heart className="w-8 h-8 text-pink-500" />
         </div>
-        <h3 className="text-2xl sm:text-3xl font-bold text-center text-pink-600 mt-2">To My Cutiepie</h3>
+        <h3 className="text-2xl sm:text-3xl font-bold text-center text-pink-600 mt-2">To My kutta bhai</h3>
       </motion.div>
 
       <motion.div
@@ -87,44 +87,50 @@ export default function BirthdayCelebration() {
               transition={{ duration: 0.5 }}
             >
               <div className="text-center">
-                <p className="text-purple-700 mb-2">
-                Just wanted to remind you—you're my favorite person. My days are better, smiles are wider, and life is sweeter because of you.
-                </p>
-                <p className="text-pink-600 font-medium">I hope your birthday is full of love, magic, and everything that makes you smile 💖</p>
-                <div className="flex justify-center">
-                  <motion.div
-                    animate={{
-                      scale: [1, 1.2, 1],
-                    }}
-                    transition={{
-                      duration: 1.5,
-                      repeat: Number.POSITIVE_INFINITY,
-                    }}
-                  >
-                    <Heart className="w-8 h-8 stroke-none fill-rose-500" />
-                  </motion.div>
-                </div>
-              </div>
-            </motion.div>}
-          </AnimatePresence>
-        </div>
-      </motion.div>
+  <p className="text-purple-700 mb-2">
+    Kutta! Bas yaad dila rahi hoon ki tu meri favourite tension-machine hai 😏. 
+    Hamesha irritate karta hai, lekin fir bhi meri life tere bina boring ho jaati.  
+  </p>
+  <p className="text-pink-600 font-medium">
+    Tere birthday pe sirf yahi dua hai ki tu hamesha aise hi pagal bane rahe… aur thoda kam tang kare 😜
+  </p>
+  <div className="flex justify-center">
+    <motion.div
+      animate={{
+        scale: [1, 1.2, 1],
+      }}
+      transition={{
+        duration: 1.5,
+        repeat: Number.POSITIVE_INFINITY,
+      }}
+    >
+      <Heart className="w-8 h-8 stroke-none fill-rose-500" />
+    </motion.div>
+  </div>
+</div>
+</motion.div>}
+</AnimatePresence>
+</div>
+</motion.div>
 
-      <motion.div
-        className="w-full max-w-md mt-4"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 1 }}
-      >
-        <div className="text-center">
-          <p className="text-lg text-purple-700 mb-4">
-          May every wish you make today come true. You deserve the world, and I’ll always be here to remind you of that.
-          </p>
-          <div className="flex justify-center items-center gap-2">
-            <p className="text-pink-600 font-medium">Let’s always stay like this... together, forever 🫶</p>
-          </div>
-        </div>
-      </motion.div>
+<motion.div
+  className="w-full max-w-md mt-4"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ delay: 1 }}
+>
+  <div className="text-center">
+    <p className="text-lg text-purple-700 mb-4">
+      Har wish jo tu aaj maange, vo puri ho… bas meri ek wish puri mat karna — mujhe irritate karna band mat karna 🤭
+    </p>
+    <div className="flex justify-center items-center gap-2">
+      <p className="text-pink-600 font-medium">
+        Chal, kutte! Aise hi ladte-jhagadte bade ho jaayein… par ek dusre ke saath hamesha rahein 🫶
+      </p>
+    </div>
+  </div>
+</motion.div>
+
     </div>
   )
 }
